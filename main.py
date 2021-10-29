@@ -1,7 +1,9 @@
 import logging, datetime, time, requests
 ip_list = [
     "http://localhost:5000/",
-    "http://localhost:5000/404"
+    "http://localhost:5000/404",
+    "http://178.218.117.7/",
+    "http://localhost:80/"
 ]
 err = ""
 now = datetime.datetime.now()
